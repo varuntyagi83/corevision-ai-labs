@@ -76,7 +76,9 @@ export default function Nav() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="mailto:hello@corevisionailabs.com"
+            href="https://calendly.com/varun-tyagi83/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-semibold px-5 py-2 transition-all duration-200 tracking-wide"
             style={{
               background: '#1BB8C0',
@@ -140,7 +142,9 @@ export default function Nav() {
             </Link>
           ))}
           <a
-            href="mailto:hello@corevisionailabs.com"
+            href="https://calendly.com/varun-tyagi83/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-2 text-sm font-semibold px-5 py-3 text-center tracking-wide"
             style={{
               background: '#1BB8C0',

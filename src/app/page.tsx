@@ -277,7 +277,9 @@ export default function HomePage() {
               We're always open to interesting projects at the intersection of AI and product.
             </p>
             <a
-              href="mailto:hello@corevisionailabs.com"
+              href="https://calendly.com/varun-tyagi83/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block font-display text-sm uppercase tracking-[0.2em] px-10 py-4 transition-all duration-200 hover:bg-opacity-90"
               style={{
                 background: '#1BB8C0',

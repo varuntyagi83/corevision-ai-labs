@@ -257,7 +257,9 @@ export default function ProductsPage() {
             </p>
           </div>
           <a
-            href="mailto:hello@corevisionailabs.com"
+            href="https://calendly.com/varun-tyagi83/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="shrink-0 font-display text-sm uppercase tracking-[0.18em] px-8 py-4 transition-all duration-200"
             style={{
               background: '#1BB8C0',
