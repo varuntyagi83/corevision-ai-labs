@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="6" fill="#060E1C"/>
+  <!-- Outer hexagon -->
+  <path d="M16 3L28 9.5V22.5L16 29L4 22.5V9.5L16 3Z" stroke="#1BB8C0" stroke-width="1.5" fill="none"/>
+  <!-- Inner hexagon filled -->
+  <path d="M16 9L23 13V21L16 25L9 21V13L16 9Z" fill="#1BB8C0" opacity="0.85"/>
+  <!-- Center dot -->
+  <circle cx="16" cy="16" r="2.5" fill="#060E1C"/>
+</svg>

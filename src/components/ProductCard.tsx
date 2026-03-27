@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 
 export type ProductStatus = 'live' | 'beta' | 'coming-soon'
@@ -21,7 +23,7 @@ interface ProductCardProps {
   index?: number
 }
 
-export default function ProductCard({ product, index = 0 }: ProductCardProps) {
+export default function ProductCard({ product }: ProductCardProps) {
   const { name, headline, description, price, featured, status, href, learnMoreHref, tags } = product
 
   const accentColor = featured ? '#C87941' : '#1BB8C0'
