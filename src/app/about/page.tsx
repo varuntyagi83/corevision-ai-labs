@@ -174,7 +174,7 @@ export default function AboutPage() {
                 {[
                   { label: 'LinkedIn', href: 'https://linkedin.com/in/varuntyagi83' },
                   { label: 'GitHub', href: 'https://github.com/varuntyagi83' },
-                  { label: 'Email', href: 'mailto:hello@corevisionailabs.com' },
+                  { label: 'Email', href: 'mailto:hi@corevisionailabs.com' },
                 ].map(link => (
                   <a
                     key={link.label}

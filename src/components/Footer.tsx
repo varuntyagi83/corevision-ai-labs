@@ -87,11 +87,11 @@ export default function Footer() {
                 About
               </Link>
               <a
-                href="mailto:hello@corevisionailabs.com"
+                href="mailto:hi@corevisionailabs.com"
                 className="text-sm font-medium transition-colors duration-150 hover:text-white"
                 style={{ color: 'var(--text-muted)' }}
               >
-                hello@corevisionailabs.com
+                hi@corevisionailabs.com
               </a>
               <a
                 href="https://linkedin.com/in/varuntyagi83"
