@@ -23,7 +23,7 @@ export const products: Product[] = [
     price: 100,
     featured: false,
     status: 'live',
-    href: 'https://ray-tracker.vercel.app',
+    href: 'https://ray-tracker.vercel.app/',
     learnMoreHref: '/products#voltic',
     tags: ['Intelligence', 'Competitor Analysis', 'Meta', 'Marketing'],
   },
