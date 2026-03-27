@@ -10,7 +10,7 @@ export const products: Product[] = [
     price: 150,
     featured: true,
     status: 'live',
-    href: '#', // TODO: add link
+    href: 'https://adforge-railway-production.up.railway.app/',
     learnMoreHref: '/products#kreashot',
     tags: ['AI', 'Ad Creative', 'Meta', 'Marketing'],
   },
@@ -23,7 +23,7 @@ export const products: Product[] = [
     price: 100,
     featured: false,
     status: 'live',
-    href: '#', // TODO: add link
+    href: 'https://ray-tracker.vercel.app',
     learnMoreHref: '/products#voltic',
     tags: ['Intelligence', 'Competitor Analysis', 'Meta', 'Marketing'],
   },
@@ -36,7 +36,7 @@ export const products: Product[] = [
     price: 100,
     featured: false,
     status: 'live',
-    href: '#', // TODO: add link
+    href: 'https://geo-tracker-frontend-beige.vercel.app/',
     learnMoreHref: '/products#georaydar',
     tags: ['AEO', 'AI Search', 'Brand', 'Analytics'],
   },
@@ -49,7 +49,7 @@ export const products: Product[] = [
     price: 200,
     featured: false,
     status: 'live',
-    href: '#', // TODO: add link
+    href: 'https://adprofit-production.up.railway.app/',
     learnMoreHref: '/products#adprofit',
     tags: ['ROI', 'Budget Optimization', 'DTC', 'Analytics'],
   },
@@ -62,7 +62,7 @@ export const products: Product[] = [
     price: 120,
     featured: false,
     status: 'live',
-    href: '#', // TODO: add link
+    href: 'https://intellisync-production.up.railway.app/',
     learnMoreHref: '/products#intellisync',
     tags: ['Intelligence', 'GPT-4o', 'Multi-Platform', 'Marketing'],
   },
@@ -75,7 +75,7 @@ export const products: Product[] = [
     price: 99,
     featured: false,
     status: 'live',
-    href: '#', // TODO: add link
+    href: 'https://market-intel-one.vercel.app/',
     learnMoreHref: '/products#market-intel',
     tags: ['Finance', 'AI', 'Real-Time', 'Analytics'],
   },
