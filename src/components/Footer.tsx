@@ -117,15 +117,36 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div
-          className="pt-8 border-t flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
+          className="pt-8 border-t flex flex-col gap-4"
           style={{ borderColor: 'rgba(255,255,255,0.06)' }}
         >
-          <p className="font-mono text-xs" style={{ color: 'var(--text-dim)' }}>
-            © {new Date().getFullYear()} CoreVision AI Labs · corevisionailabs.com
+          <p className="text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+            AdProfit is a product of CoreVision AI Labs. All products listed on this site are developed and operated by CoreVision AI Labs.
           </p>
-          <p className="font-mono text-xs" style={{ color: 'var(--text-dim)' }}>
-            Varun Tyagi · Berlin, Germany
-          </p>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <p className="font-mono text-xs" style={{ color: 'var(--text-dim)' }}>
+              © 2026 CoreVision AI Labs. All rights reserved.
+            </p>
+            <div className="flex items-center gap-4">
+              <Link
+                href="/privacy"
+                className="font-mono text-xs transition-colors duration-150 hover:text-white"
+                style={{ color: 'var(--text-dim)' }}
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms"
+                className="font-mono text-xs transition-colors duration-150 hover:text-white"
+                style={{ color: 'var(--text-dim)' }}
+              >
+                Terms of Service
+              </Link>
+              <span className="font-mono text-xs" style={{ color: 'var(--text-dim)' }}>
+                Varun Tyagi · Berlin, Germany
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

@@ -218,6 +218,33 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Product Ownership */}
+      <section className="max-w-7xl mx-auto px-6 py-24">
+        <p
+          className="font-mono text-xs uppercase tracking-[0.2em] mb-6"
+          style={{ color: '#1BB8C0' }}
+        >
+          Product Ownership
+        </p>
+        <div
+          className="p-8"
+          style={{
+            background: 'linear-gradient(160deg, #0D1E35 0%, #091422 100%)',
+            border: '1px solid rgba(255,255,255,0.07)',
+          }}
+        >
+          <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--text-muted)' }}>
+            AdProfit is a Google Ads intelligence platform developed and owned by CoreVision AI Labs. All products listed on this website — including Kreashot, Voltic, GEORAYDAR, AdProfit, IntelliSync, and Market-Intel — are developed, operated, and maintained by CoreVision AI Labs.
+          </p>
+          <p className="text-base leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+            Our lead developer contact is{' '}
+            <a href="mailto:hi@corevisionailabs.com" className="text-white hover:underline">
+              hi@corevisionailabs.com
+            </a>
+          </p>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="max-w-7xl mx-auto px-6 py-24">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
