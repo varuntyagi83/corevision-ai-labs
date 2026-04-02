@@ -153,8 +153,8 @@ export default function ProductCard({ product }: ProductCardProps) {
               </span>
             </div>
           ) : (
-            <span className="font-display text-3xl leading-none" style={{ color: 'var(--text-muted)' }}>
-              Coming Soon
+            <span className="font-display text-3xl leading-none" style={{ color: accentColor }}>
+              Free to Start
             </span>
           )}
         </div>
