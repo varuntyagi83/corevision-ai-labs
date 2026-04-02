@@ -49,7 +49,7 @@ export const products: Product[] = [
     price: 200,
     featured: false,
     status: 'live',
-    href: 'https://adprofit-production.up.railway.app/',
+    href: 'https://rayprofit.com',
     learnMoreHref: '/products#adprofit',
     tags: ['ROI', 'Budget Optimization', 'DTC', 'Analytics'],
   },
