@@ -36,7 +36,7 @@ export const products: Product[] = [
     price: 100,
     featured: false,
     status: 'live',
-    href: 'https://www.raydar.com',
+    href: 'https://georaydar.com',
     learnMoreHref: '/products#georaydar',
     tags: ['AEO', 'AI Search', 'Brand', 'Analytics'],
   },
