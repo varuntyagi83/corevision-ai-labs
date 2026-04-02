@@ -7,6 +7,7 @@ const products = [
   { name: 'AdProfit', href: '/products#adprofit' },
   { name: 'IntelliSync', href: '/products#intellisync' },
   { name: 'Market-Intel', href: '/products#market-intel' },
+  { name: 'ActGuard', href: '/products#actguard' },
 ]
 
 export default function Footer() {

@@ -16,6 +16,7 @@ export interface Product {
   href: string
   learnMoreHref?: string
   tags: string[]
+  trialNote?: string
 }
 
 interface ProductCardProps {
@@ -24,7 +25,7 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  const { name, headline, description, price, featured, status, href, learnMoreHref, tags } = product
+  const { name, headline, description, price, featured, status, href, learnMoreHref, tags, trialNote } = product
 
   const accentColor = featured ? '#C87941' : '#1BB8C0'
   const borderColor = featured ? 'rgba(200,121,65,0.45)' : 'rgba(27,184,192,0.35)'
@@ -159,9 +160,9 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
 
         {/* Trial note */}
-        {price !== null && (
+        {(price !== null || trialNote) && (
           <p className="text-xs font-mono mb-6" style={{ color: accentColor }}>
-            ✓ 7 DAYS FREE · NO CREDIT CARD
+            ✓ {trialNote ?? '7 DAYS FREE · NO CREDIT CARD'}
           </p>
         )}
 

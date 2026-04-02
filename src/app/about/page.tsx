@@ -29,7 +29,7 @@ const timeline = [
   { year: '2024', event: 'Voltic launched — real-time competitor ad intelligence' },
   { year: '2024', event: 'GEORAYDAR launched — AI search brand tracking' },
   { year: '2025', event: 'AdProfit, IntelliSync & Market-Intel ship' },
-  { year: '2025', event: '6 products live across marketing & finance AI' },
+  { year: '2025', event: '7 products live across marketing, finance & legal tech AI' },
 ]
 
 export default function AboutPage() {
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 So we started building differently. Each product starts with a real problem — something that actually costs marketers money or slows analysts down. Then we build the smallest, most direct solution possible. No feature creep. No bloat.
               </p>
               <p>
-                Based in Berlin, we operate as a lean, independent studio. No investors, no roadmap decks, no sales team. Just a portfolio of 6 AI products that people pay for.
+                Based in Berlin, we operate as a lean, independent studio. No investors, no roadmap decks, no sales team. Just a portfolio of 7 AI products that people pay for.
               </p>
               <p className="text-white font-medium">
                 If it doesn't charge money, it doesn't count. That's the filter.
@@ -167,7 +167,7 @@ export default function AboutPage() {
                   Builder and product thinker focused on the practical applications of AI. Not the theory, not the hype — the actual tools that make work better.
                 </p>
                 <p>
-                  Founded CoreVision AI Labs to build the AI tools he wanted to use but couldn't find. Six products later, the mission hasn't changed: build AI products that actually work.
+                  Founded CoreVision AI Labs to build the AI tools he wanted to use but couldn't find. Seven products later, the mission hasn't changed: build AI products that actually work.
                 </p>
               </div>
               <div className="flex flex-wrap gap-4">

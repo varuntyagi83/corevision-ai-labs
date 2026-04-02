@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy — CoreVision AI Labs',
-  description: 'Privacy Policy for CoreVision AI Labs and its products including AdProfit, Kreashot, Voltic, GEORAYDAR, IntelliSync, and Market-Intel.',
+  description: 'Privacy Policy for CoreVision AI Labs and its products including AdProfit, Kreashot, Voltic, GEORAYDAR, IntelliSync, Market-Intel, and ActGuard.',
 }
 
 export default function PrivacyPage() {
@@ -45,7 +45,7 @@ export default function PrivacyPage() {
               }}
             >
               <p className="text-base leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-                This Privacy Policy applies to AdProfit, a product developed and operated by CoreVision AI Labs. It also applies to all other products operated by CoreVision AI Labs, including Kreashot, Voltic, GEORAYDAR, IntelliSync, and Market-Intel. For enquiries, contact{' '}
+                This Privacy Policy applies to AdProfit, a product developed and operated by CoreVision AI Labs. It also applies to all other products operated by CoreVision AI Labs, including Kreashot, Voltic, GEORAYDAR, IntelliSync, Market-Intel, and ActGuard. For enquiries, contact{' '}
                 <a href="mailto:hi@corevisionailabs.com" className="text-white hover:underline">
                   hi@corevisionailabs.com
                 </a>

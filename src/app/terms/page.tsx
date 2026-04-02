@@ -62,6 +62,7 @@ export default function TermsPage() {
                   'GEORAYDAR — AI search visibility tracking across ChatGPT, Gemini, Perplexity, and Claude',
                   'IntelliSync — AI-powered multi-platform marketing intelligence',
                   'Market-Intel — Real-time market intelligence and AI stock analysis',
+                  'ActGuard — EU AI Act compliance suite for AI system classification and audit documentation',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="mt-1 shrink-0 font-mono text-xs" style={{ color: '#1BB8C0' }}>→</span>

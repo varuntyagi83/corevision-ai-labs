@@ -60,7 +60,7 @@ export default function HomePage() {
             className="animate-fade-up delay-400 text-lg max-w-lg leading-relaxed mb-10"
             style={{ color: 'var(--text-muted)' }}
           >
-            6 AI products. Real problems. Real users. Not demos, not pitch decks — software that ships and works.
+            7 AI products. Real problems. Real users. Not demos, not pitch decks — software that ships and works.
           </p>
 
           {/* CTAs */}
@@ -95,7 +95,7 @@ export default function HomePage() {
           {/* Stats row */}
           <div className="animate-fade-up delay-600 flex flex-wrap gap-12">
             {[
-              { value: '6', label: 'Products Live' },
+              { value: '7', label: 'Products Live' },
               { value: '2024', label: 'Founded' },
               { value: 'Berlin', label: 'HQ' },
             ].map(s => (

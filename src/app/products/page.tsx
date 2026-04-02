@@ -57,6 +57,17 @@ const productDetails: Record<string, { longDescription: string; features: string
       'Team collaboration built in',
     ],
   },
+  actguard: {
+    longDescription:
+      'ActGuard takes your AI system description and generates a complete, audit-ready compliance package for the EU AI Act — risk tier classification, required documentation, conformity assessment checklist, and technical file templates. Built for compliance officers who need answers in minutes, not months.',
+    features: [
+      'Automated risk tier classification (Unacceptable / High / Limited / Minimal)',
+      'Full compliance package generated from system description',
+      'Audit-ready technical file templates',
+      'Conformity assessment checklist per risk tier',
+      'Full EU27 coverage · August 2026 deadline support',
+    ],
+  },
   'market-intel': {
     longDescription:
       'Market-Intel aggregates live prices, news, and technical indicators across 4 global markets, then layers on AI-driven buy/hold/sell advisories. For serious investors who want signal, not noise.',
@@ -85,7 +96,7 @@ export default function ProductsPage() {
             Portfolio
           </p>
           <h1 className="font-display text-6xl sm:text-8xl text-white uppercase leading-none mb-5">
-            6 Products.<br />
+            7 Products.<br />
             <span style={{ color: '#1BB8C0' }}>All Live.</span>
           </h1>
           <p className="text-lg max-w-xl" style={{ color: 'var(--text-muted)' }}>
