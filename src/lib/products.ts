@@ -84,14 +84,14 @@ export const products: Product[] = [
     name: 'ActGuard',
     headline: 'COMPLIANCE.\nAUTOMATED.',
     description:
-      'From AI system description to audit-ready documentation in minutes. Built for compliance officers who can\'t wait on lawyers. Classify your risk tier — get a full compliance package.',
+      'From AI system description to audit-ready documentation in minutes. Built for compliance officers who can\'t wait on lawyers. Classify your risk tier — get a full compliance package. 1 AI system included free. Subscribe for more.',
     price: null,
     featured: false,
     status: 'live',
     href: 'https://actguard-production.up.railway.app/',
     learnMoreHref: '/products#actguard',
     tags: ['AI', 'Compliance', 'EU AI Act', 'Legal Tech'],
-    trialNote: 'Free to start · August 2026 deadline · Full EU27 coverage',
+    trialNote: '1 AI system free · More systems require a subscription',
   },
 ]
 
